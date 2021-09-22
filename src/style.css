@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("./images/4.png") no-repeat center center;
+}
+
+.globalSearch {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}   
+.globalSearch>form {
+    display: flex;
+}
+.globalSearch>form>div>input{
+   height: 38px;
+   width: 400px;
+   padding: 8px;
+}
+.globalSearch>form>div>button{
+    width: 60px; 
+    margin-left: 10px;
+    cursor: pointer;
+ }
